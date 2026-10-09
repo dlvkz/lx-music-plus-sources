@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "kind": "addon",
+      "author": "dlvkz",
+      "version": "1.0.0",
+      "plays": [
+        "yt"
+      ],
+      "description": "Plays the audio of YouTube videos with the yt-dlp of the app.",
+      "descriptionZh": "通过应用内置的 yt-dlp 播放 YouTube 视频的音频。",
+      "url": "https://raw.githubusercontent.com/dlvkz/lx-music-plus-sources/main/addons/youtube.js",
+      "homepage": "https://github.com/dlvkz/lx-music-plus-sources"
+    },
+    {
+      "id": "soundcloud",
+      "name": "SoundCloud",
+      "kind": "addon",
+      "author": "dlvkz",
+      "version": "1.0.0",
+      "plays": [
+        "sc"
+      ],
+      "description": "Plays SoundCloud songs through the public SoundCloud web player.",
+      "descriptionZh": "通过 SoundCloud 公开网页播放器播放歌曲。",
+      "url": "https://raw.githubusercontent.com/dlvkz/lx-music-plus-sources/main/addons/soundcloud.js",
+      "homepage": "https://github.com/dlvkz/lx-music-plus-sources"
+    },
+    {
+      "id": "bandcamp",
+      "name": "Bandcamp",
+      "kind": "addon",
+      "author": "dlvkz",
+      "version": "1.0.0",
+      "plays": [
+        "bc"
+      ],
+      "description": "Plays the free 128 kbps streams of the Bandcamp song pages.",
+      "descriptionZh": "播放 Bandcamp 歌曲页面的免费 128 kbps 音频。",
+      "url": "https://raw.githubusercontent.com/dlvkz/lx-music-plus-sources/main/addons/bandcamp.js",
+      "homepage": "https://github.com/dlvkz/lx-music-plus-sources"
+    },
+    {
+      "id": "khinsider",
+      "name": "KHInsider",
+      "kind": "addon",
+      "author": "dlvkz",
+      "version": "1.0.0",
+      "plays": [
+        "kh"
+      ],
+      "description": "Plays video game soundtracks from the KHInsider song pages.",
+      "descriptionZh": "播放 KHInsider 的游戏原声。",
+      "url": "https://raw.githubusercontent.com/dlvkz/lx-music-plus-sources/main/addons/khinsider.js",
+      "homepage": "https://github.com/dlvkz/lx-music-plus-sources"
+    },
+    {
+      "id": "gdstudio",
+      "name": "GD Studio",
+      "kind": "addon",
+      "author": "dlvkz",
+      "version": "1.0.0",
+      "plays": [
+        "wy"
+      ],
+      "description": "Backup for the Music API: NetEase songs from GD Studio's public music API (a third-party service) when the Music API can't play them.",
+      "descriptionZh": "音乐 API 的备用插件：音乐 API 无法播放时，通过 GD 音乐台的公开 API（第三方服务）播放网易云的歌曲。",
+      "url": "https://raw.githubusercontent.com/dlvkz/lx-music-plus-sources/main/addons/gdstudio.js",
+      "homepage": "https://github.com/dlvkz/lx-music-plus-sources"
+    },
+    {
+      "id": "huibq",
+      "name": "Huibq_lxmusic源",
+      "kind": "api",
+      "author": "Huibq",
+      "description": "Third-party Music API by Huibq, from the author's repository.",
+      "descriptionZh": "Huibq 的第三方音乐 API，来自作者的仓库。",
+      "url": "https://raw.githubusercontent.com/Huibq/keep-alive/master/render_api.js",
+      "homepage": "https://github.com/Huibq/keep-alive"
+    },
+    {
+      "id": "sixyin",
+      "name": "六音音源",
+      "kind": "api",
+      "author": "六音",
+      "description": "Third-party Music API by 六音 (sixyin.com), via pdone/lx-music-source.",
+      "descriptionZh": "六音（sixyin.com）的第三方音乐 API，链接来自 pdone/lx-music-source。",
+      "url": "https://raw.githubusercontent.com/pdone/lx-music-source/main/sixyin/latest.js",
+      "homepage": "https://github.com/pdone/lx-music-source"
+    },
+    {
+      "id": "ikun",
+      "name": "ikun音源",
+      "kind": "api",
+      "author": "ikunshare",
+      "description": "Third-party Music API by ikunshare, via pdone/lx-music-source.",
+      "descriptionZh": "ikunshare 的第三方音乐 API，链接来自 pdone/lx-music-source。",
+      "url": "https://raw.githubusercontent.com/pdone/lx-music-source/main/ikun/latest.js",
+      "homepage": "https://github.com/pdone/lx-music-source"
+    },
+    {
+      "id": "lx-dujia",
+      "name": "独家音源",
+      "kind": "api",
+      "author": "w",
+      "description": "Third-party Music API (洛雪科技), via pdone/lx-music-source.",
+      "descriptionZh": "第三方音乐 API（洛雪科技），链接来自 pdone/lx-music-source。",
+      "url": "https://raw.githubusercontent.com/pdone/lx-music-source/main/lx/latest.js",
+      "homepage": "https://github.com/pdone/lx-music-source"
+    },
+    {
+      "id": "flower",
+      "name": "野花🌷",
+      "kind": "api",
+      "author": "",
+      "description": "Third-party Music API, via pdone/lx-music-source.",
+      "descriptionZh": "第三方音乐 API，链接来自 pdone/lx-music-source。",
+      "url": "https://raw.githubusercontent.com/pdone/lx-music-source/main/flower/latest.js",
+      "homepage": "https://github.com/pdone/lx-music-source"
+    },
+    {
+      "id": "grass",
+      "name": "野草🌾",
+      "kind": "api",
+      "author": "",
+      "description": "Third-party Music API, via pdone/lx-music-source.",
+      "descriptionZh": "第三方音乐 API，链接来自 pdone/lx-music-source。",
+      "url": "https://raw.githubusercontent.com/pdone/lx-music-source/main/grass/latest.js",
+      "homepage": "https://github.com/pdone/lx-music-source",
+      "default": true
+    }
+  ]
+}
